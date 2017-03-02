@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.startrekspeciesquizv2.QuestionOneFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/text_question"
+                android:text="@string/text_question_one" />
+
+            <Button
+                android:layout_marginTop="16dp"
+                style="@style/btn_species"
+                android:drawableLeft="@drawable/ic_klingon"
+                android:text="Klingon" />
+
+            <Button
+                style="@style/btn_species"
+                android:drawableLeft="@drawable/ic_romul"
+                android:text="Romul" />
+
+            <Button
+                style="@style/btn_species"
+                android:drawableLeft="@drawable/ic_vulcan"
+                android:text="Vulcan" />
+
+            <Button
+                style="@style/btn_species"
+                android:drawableLeft="@drawable/ic_human"
+                android:text="Human" />
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

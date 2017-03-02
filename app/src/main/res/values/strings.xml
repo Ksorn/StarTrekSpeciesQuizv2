@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Star Trek Species Quiz</string>
+
+    <string name="text_question_one">QUESTION #1\n\nWhat species is Captain Kirk?</string>
+    <string name="text_question_2">QUESTION #2\n\nWhich species prizes money above everything else?</string>
+
+</resources>

@@ -1,0 +1,47 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.startrekspeciesquizv2.QuestionTwoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                style="@style/text_question"
+                android:text="@string/text_question_2" />
+
+            <RadioGroup
+                android:id="@+id/radio_group_1"
+                style="@style/radio_group">
+
+                <RadioButton
+                    android:id="@+id/radio_q2_1"
+                    style="@style/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/radio_q2_2"
+                    style="@style/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/radio_q2_3"
+                    style="@style/radio_button" />
+
+                <RadioButton
+                    android:id="@+id/radio_q2_4"
+                    style="@style/radio_button" />
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
